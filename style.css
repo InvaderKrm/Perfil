@@ -1,3 +1,24 @@
+@font-face {
+    font-family: 'chinese rocks';
+    src: url(chinese_rocks/chinese\ rocks\ rg.otf)
+}
+@font-face {
+    font-family: 'typoslab irregular';
+    src: url(typoslab_irregular/TypoSlab\ Irregular\ Demo.otf);
+}
+@font-face {
+    font-family: 'impacted';
+    src: url(alpha_fridge_magnets/AlphaFridgeMagnets.ttf);
+}
+h1{
+    font-family: 'chinese rocks';
+}
+h2{
+    font-family: 'impacted';
+}
+p {
+    font-family: 'typoslab irregular';
+}
 header {
     width: 100%;
     height: 150px;
@@ -5,18 +26,53 @@ header {
     float: left;
     background-color: rgb(139, 34, 34);
 }
-
+header h1 {
+    font-size: 650%;
+    padding-left: 22px;
+    margin-bottom: 40px;
+    margin-top: 16px;
+}
 article {
     width: 70%;
-    height: 800px;
+    height: 450px;
     display: block;
     float: left;
     background-color: rgb(43, 40, 40);
 }
+#section1 {
+    width: 46.5%;
+    height: 91%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+    background-color:rgb(56, 53, 53);
+}
+#section2 {
+    width: 46.5%;
+    height: 91%;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color:rgb(56, 53, 53);
+}
+section p {
+    margin: 20px;
+    margin-bottom: -15px;
+}
+section h2 {
+    margin: 20px;
+    margin-top: 5px;
+    margin-bottom: -15px;
+    font-size: 37px;
+}
 
 aside {
     width: 30%;
-    height: 800px;
+    height: 450px;
     display: block;
     float: left;
     background-color: rgb(56, 53, 53);
